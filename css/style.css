@@ -1,0 +1,148 @@
+
+#clothes img:hover{
+
+	 -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+#JAimages{
+	margin-top: -5px;
+}
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+.rating h2 {
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+}
+.rating h2:hover:before,
+.rating h2:hover ~ h2:before {
+   content: "\2605";
+   position: absolute;
+
+}
+
+p{
+	text-indent: 30px;
+}
+#part{
+	background-color: rgb(41, 105, 176);
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+#par{
+	margin-top: 90px;
+	color: black;
+	opacity: 0.9;
+	font-size: 40px;
+}
+#JA{
+	width:360px;
+height: 470px;
+margin-bottom: 20px;
+border: 1px solid #168FC6;
+}
+
+#start{
+	color: black;
+	opacity: 0.7;
+	font-size: 20px;
+}
+
+#dropp li a:hover{
+	background-color: black;
+
+}
+.t{
+	color: black;
+	opacity: 0.8;
+	font-size: 20px;
+}
+
+.card{
+	font-size: 20px;
+}
+.category .category-item-width {
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav ul li:hover {
+	border: 1px solid red;
+    transition: background .75s;
+	}
+#link a:visited{
+	background-color: black;
+	border:1px sloid red;
+}
+
+#slider{
+	margin-top: 10px;
+	box-shadow:  5px #888888;
+}
+#links li a {
+	color: white;
+	width: 160px;
+	font-size: 18px;
+}
+
+#dropp{
+	background-color: black;
+}
+#social{
+	padding-top: 10px;
+}
+
+
+header {
+    position: relative;
+	z-index:15;
+	width: 100%;
+
+}
+.current{
+	border: 1px solid red;
+}
+#image{
+	background-color: black;
+}
+#hed{
+	background-color: #FFE4E1;
+}
+
+nav{
+    width: 100%;
+    position: relative;
+	}
+
+#footer{
+	margin-top: 20px;
+	font-size: 18px;
+	color: white;
+	background: black;
+}
+#acc:hover{
+	opacity: 0.8;
+}
+
+.photo {
+    display: inline-block;
+    position: relative;
+   }
+   .photo:hover::after {
+	   opacity:0.9;
+    content: attr(data-title);
+    position: absolute;
+    left: 0; right: 0; bottom: 5px;
+    z-index: 1;
+    background: rgb(234, 211, 247);
+    color: black;
+    text-align: center;
+    font-size: 20px;
+ padding: 10px 0;
+ margin-bottom: 15px;
+    border: 1px solid black; 
+   }
